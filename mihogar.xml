@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.0.0" type="plugin" group="api" method="upgrade">
     <name>Mi Hogar</name>
-    <version>1.0</version>
+    <version>3.0</version>
     <creationDate>21/12/2018</creationDate>
     <author></author> 
     <description></description>
+    <updateservers>    
+    	<server type="extension" priority="1" name="API Component Updates">http://www.diportal.com.ar/updates/api/plugins/mihogar.xml</server>
+	</updateservers>  
     <files>
         <filename plugin="mihogar">mihogar.php</filename>
         <folder>mihogar</folder>
