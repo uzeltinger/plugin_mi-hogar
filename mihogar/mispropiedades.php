@@ -49,7 +49,7 @@ class MihogarApiResourceMispropiedades extends ApiResource
             }
     
             $query .= " GROUP BY p.id " ;
-            $query .= " ORDER BY p.id DESC " ;
+            $query .= " ORDER BY p.published DESC, p.id DESC " ;
             $query .= "LIMIT 0, 100 ";
     
             //echo str_replace('#_','luxy',$query);
